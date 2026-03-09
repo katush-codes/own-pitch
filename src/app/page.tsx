@@ -43,7 +43,7 @@ export default function Home() {
             <span style={{ WebkitTextStroke: '1px rgba(245,242,236,0.25)', color: 'transparent' }}>Equity.</span>
           </h1>
           <p className="max-w-lg mt-10 text-lg leading-relaxed text-white/65 animate-fade-up-3">
-            A <span className="text-[#D8E800] font-bold">Social Media</span> and <span className="text-[#D8E800] font-bold">Prediction Market App</span> where creators compete, audiences vote + bet on outcomes, everyone gets paid and owns what they build — IP included. The{' '}
+            A <span className="text-[#D8E800] font-bold">Social Media</span> and <span className="text-[#D8E800] font-bold">Prediction Market App</span> where creators compete, audiences vote + bet on outcomes, <strong className="text-white font-bold">everyone gets paid and owns what they build</strong> — IP included. The{' '}
             multi-trillion-dollar market for truth and real-time intelligence, unlocked.
           </p>
           <div className="flex gap-4 mt-12 flex-wrap animate-fade-up-4">
@@ -90,7 +90,7 @@ export default function Home() {
         </p>
         <div className="grid grid-cols-2 gap-px bg-[#1a1a1a] border border-[#1a1a1a]">
           {[
-            ['01','Social Media Reimagined','Social Media','Creators compete in AI-ranked arena cycles based on human interactions, performance is transparent, meritocratic, and financially rewarded. No more black-box algorithms deciding your fate.'],
+            ['01','Social Media Reimagined','Social Media','Creators compete in AI-ranked arena cycles based on bot-free true interactions, performance is transparent, meritocratic, and financially rewarded. No more black-box algorithms deciding your fate.'],
             ['02','Prediction Markets Built In','Built In','Audiences don\'t just watch — they bet. On creators, on outcomes, on ideas. Attention becomes a financial instrument for the first time.'],
             ['03','Own What You Create','Own','Every piece of content is IP. Creators hold the rights, license their work, and build compounding digital assets — not just follower counts.'],
             ['04','A Market for Truth','Truth','Real-time collective intelligence surfaces what\'s actually true and what matters. Own. is infrastructure for the information economy.'],
@@ -114,11 +114,11 @@ export default function Home() {
         </h2>
         <div className="max-w-4xl">
           {[
-            ['Lack of monetization for creators','Highest payout platform to Creators'],
             ['Platforms own your content','You own your IP'],
             ['Attention is harvested','Attention is monetized by you'],
             ['Opaque algorithmic ranking','AI-powered transparent competition'],
             ['Passive audience','Audiences with real skin in the game'],
+            ['Lack of monetization for creators','Highest payout platform to Creators'],
             ['Information is free (and worthless)','Truth has a price'],
           ].map(([from, to], i) => (
             <div key={i} className="grid gap-8 py-6 border-t border-[#1a1a1a] items-center group" style={{ gridTemplateColumns: '80px 1fr 1fr' }}>
