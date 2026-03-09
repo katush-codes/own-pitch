@@ -265,7 +265,7 @@ export default function Home() {
         <div className="grid grid-cols-1 sm:grid-cols-3 sm:gap-16 gap-8 mb-12 items-start">
           <div>
             <img src="/logo.png" alt="own." className="h-8 mb-4" />
-            <p className="font-mono text-xs text-[#333] leading-relaxed tracking-wider mb-6">
+            <p className="font-mono text-xs text-[#333] leading-relaxed tracking-wider mb-6 break-words">
               The intelligence economy's first platform. Creators own. Audiences earn. Truth has a price.
             </p>
             <AppBadges />
