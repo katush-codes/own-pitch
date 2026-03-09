@@ -1,0 +1,70 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --teal: #00E2E2;
+  --teal-light: #33eaea;
+  --chartreuse: #D8E800;
+  --black: #080808;
+  --white: #f5f2ec;
+  --dim: #1a1a1a;
+  --muted: #555;
+}
+
+html { scroll-behavior: smooth; }
+
+body { cursor: crosshair; }
+
+/* Font utilities */
+.font-display { font-family: var(--font-display), sans-serif; }
+.font-sans    { font-family: var(--font-sans), sans-serif; }
+.font-mono    { font-family: var(--font-mono), monospace; }
+
+/* Teal colour utilities */
+.text-teal       { color: var(--teal); }
+.text-teal-light { color: var(--teal-light); }
+.text-muted      { color: var(--muted); }
+.bg-teal         { background-color: var(--teal); }
+.bg-teal\/5      { background-color: rgba(0,226,226,0.05); }
+.bg-teal\/8      { background-color: rgba(0,226,226,0.08); }
+.border-teal     { border-color: var(--teal); }
+.border-teal\/8  { border-color: rgba(0,226,226,0.08); }
+.border-teal\/15 { border-color: rgba(0,226,226,0.15); }
+.border-teal\/20 { border-color: rgba(0,226,226,0.2); }
+.border-teal\/25 { border-color: rgba(0,226,226,0.25); }
+.border-teal\/40 { border-color: rgba(0,226,226,0.4); }
+.hover\:bg-teal-light:hover { background-color: var(--teal-light); }
+.hover\:border-teal:hover   { border-color: var(--teal); }
+.hover\:text-teal:hover     { color: var(--teal); }
+
+/* Animations */
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(24px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes ticker {
+  from { transform: translateX(0); }
+  to   { transform: translateX(-50%); }
+}
+
+.animate-fade-up   { animation: fadeUp 0.8s ease 0.2s both; }
+.animate-fade-up-2 { animation: fadeUp 0.9s ease 0.3s both; }
+.animate-fade-up-3 { animation: fadeUp 0.9s ease 0.5s both; }
+.animate-fade-up-4 { animation: fadeUp 0.9s ease 0.65s both; }
+.animate-fade-up-5 { animation: fadeUp 1s ease 0.8s both; }
+.animate-ticker    { animation: ticker 22s linear infinite; }
+
+/* Scrollbar */
+::-webkit-scrollbar { width: 4px; }
+::-webkit-scrollbar-track { background: #111; }
+::-webkit-scrollbar-thumb { background: var(--teal); }
+
+/* Remove number input arrows */
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button { -webkit-appearance: none; }
+input[type=number] { -moz-appearance: textfield; }
+
+/* Checkbox accent */
+input[type=checkbox] { accent-color: var(--teal); }
