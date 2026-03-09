@@ -145,7 +145,7 @@ export default function Home() {
             Own. sits at the convergence of three massive, fast-growing markets: the $500B creator economy, the exploding prediction market sector, and the $2T+ intelligence and data industry. No single platform has combined them. Until now.
           </p>
           <div className="flex flex-wrap gap-2">
-            {['Creator Economy','Prediction Markets','AI & Intelligence','IP & Digital Assets','Social Media','Real-Time Data'].map(p => (
+            {['Creator Economy','Prediction Markets','AI & Intelligence','IP & Digital Assets','Social Media','Real-Time Verified Data','Digital Identity (DID)','Token Economy'].map(p => (
               <span key={p} className="font-mono text-[0.68rem] tracking-[0.15em] uppercase border border-teal/25 text-teal px-3 py-1.5">{p}</span>
             ))}
           </div>
