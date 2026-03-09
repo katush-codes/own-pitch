@@ -29,7 +29,7 @@ export default function Home() {
 
         {/* Nav */}
         <nav className="flex justify-between items-center relative z-10">
-          <div className="font-display text-4xl text-teal tracking-widest">own.</div>
+          <img src="/logo.png" alt="own." className="h-10" />
           <div className="font-mono text-xs tracking-[0.2em] uppercase text-muted">Pre-Series A Round — 2026</div>
         </nav>
 
@@ -264,7 +264,7 @@ export default function Home() {
       <footer className="bg-[#050505] border-t border-teal/10 px-12 pt-16 pb-10">
         <div className="grid grid-cols-3 gap-16 mb-12 items-start">
           <div>
-            <div className="font-display text-3xl text-teal tracking-widest mb-4">own.</div>
+            <img src="/logo.png" alt="own." className="h-8 mb-4" />
             <p className="font-mono text-xs text-[#333] leading-relaxed tracking-wider mb-6">
               The intelligence economy's first platform. Creators own. Audiences earn. Truth has a price.
             </p>
