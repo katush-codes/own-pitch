@@ -1,8 +1,8 @@
 import { Resend } from 'resend'
 
 const resend = new Resend(process.env.RESEND_API_KEY)
-const FROM = process.env.EMAIL_FROM || 'Own. <investments@iown.app>'
-const NOTIFY = process.env.EMAIL_NOTIFY || 'investments@iown.app'
+const FROM = process.env.EMAIL_FROM || 'Own. <invest@iown.app>'
+const NOTIFY = process.env.EMAIL_NOTIFY || 'invest@iown.app'
 
 // ── Send deck request confirmation ──────────────────────
 export async function sendDeckConfirmation(to: string, name: string) {
