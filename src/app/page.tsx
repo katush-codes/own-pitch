@@ -28,7 +28,7 @@ export default function Home() {
           style={{ backgroundImage: 'linear-gradient(rgba(0,226,226,0.04) 1px, transparent 1px), linear-gradient(90deg, rgba(0,226,226,0.04) 1px, transparent 1px)', backgroundSize: '80px 80px' }} />
 
         {/* Nav */}
-        <nav className="flex justify-between items-center relative z-10">
+        <nav className="flex flex-col sm:flex-row sm:justify-between items-start sm:items-center gap-1 relative z-10">
           <img src="/logo.png" alt="own." className="h-10" />
           <div className="font-mono text-xs tracking-[0.2em] uppercase text-muted">Pre-Series A Round — 2026</div>
         </nav>
@@ -156,7 +156,7 @@ export default function Home() {
         <p className="font-mono text-[0.68rem] tracking-[0.3em] uppercase text-teal mb-14 flex items-center gap-4 after:content-[''] after:w-14 after:h-px after:bg-teal after:opacity-40">
           How It Works
         </p>
-        <div className="grid grid-cols-4 border border-[#1a1a1a]">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 border border-[#1a1a1a]">
           {[
             ['✦','01','Create & Compete','Creators publish content and enter AI-ranked competitive arenas. Performance is scored in real time.'],
             ['◈','02','Audiences Bet','Followers bet on creator outcomes, ideas, and predictions. Attention converts directly into financial stakes.'],
@@ -186,7 +186,7 @@ export default function Home() {
           Our Mission
         </p>
 
-        <div className="grid grid-cols-2 gap-24 items-center relative z-10">
+        <div className="grid grid-cols-1 sm:grid-cols-2 sm:gap-24 gap-10 items-center relative z-10">
           <div>
             <p className="font-mono text-xs tracking-[0.25em] uppercase text-teal mb-6">The Untapped Asset</p>
             <h2 className="font-display leading-[0.92] text-white mb-10" style={{ fontSize: 'clamp(3rem,5.5vw,5.5rem)' }}>
@@ -262,7 +262,7 @@ export default function Home() {
 
       {/* ── FOOTER ───────────────────────────────────────── */}
       <footer className="bg-[#050505] border-t border-teal/10 px-12 pt-16 pb-10">
-        <div className="grid grid-cols-3 gap-16 mb-12 items-start">
+        <div className="grid grid-cols-1 sm:grid-cols-3 sm:gap-16 gap-8 mb-12 items-start">
           <div>
             <img src="/logo.png" alt="own." className="h-8 mb-4" />
             <p className="font-mono text-xs text-[#333] leading-relaxed tracking-wider mb-6">
