@@ -110,7 +110,7 @@ export default function Home() {
           The Shift
         </p>
         <h2 className="font-display leading-[0.92] text-white mb-12" style={{ fontSize: 'clamp(3rem,6vw,6rem)' }}>
-          The old model<br />is <span className="text-[#D8E800]">broken.</span>
+          The old model<br />is <span className="text-[#D8E800] font-bold">broken.</span>
         </h2>
         <div className="max-w-4xl">
           {[
