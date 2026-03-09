@@ -43,7 +43,7 @@ export default function Home() {
             <span style={{ WebkitTextStroke: '1px rgba(245,242,236,0.25)', color: 'transparent' }}>Equity.</span>
           </h1>
           <p className="max-w-lg mt-10 text-lg leading-relaxed text-white/65 animate-fade-up-3">
-            A social media and prediction market platform where creators compete, audiences bet on outcomes, and{' '}
+            A <span className="text-[#D8E800]">social media</span> and <span className="text-[#D8E800]">prediction market app</span> where creators compete, audiences bet on outcomes, and{' '}
             <strong className="text-white font-bold">everyone owns what they build</strong> — IP included. The multi-trillion-dollar market for truth and real-time intelligence, unlocked.
           </p>
           <div className="flex gap-4 mt-12 flex-wrap animate-fade-up-4">
