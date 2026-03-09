@@ -42,7 +42,7 @@ export default function Home() {
             <span className="text-teal">Becomes</span><br />
             <span style={{ WebkitTextStroke: '1px rgba(245,242,236,0.25)', color: 'transparent' }}>Equity.</span>
           </h1>
-          <p className="max-w-lg mt-10 text-lg leading-relaxed text-white/65 animate-fade-up-3">
+          <p className="max-w-lg mt-10 text-lg leading-relaxed text-white/75 animate-fade-up-3">
             A <span className="text-[#D8E800] font-bold">Social Media</span> and <span className="text-[#D8E800] font-bold">Prediction Market App</span> where creators compete, audiences vote + bet on outcomes, <strong className="text-white font-bold">everyone gets paid and owns what they build</strong> — IP included. The{' '}
             multi-trillion-dollar market for truth and real-time intelligence, unlocked.
           </p>
@@ -98,7 +98,7 @@ export default function Home() {
             <div key={num} className="bg-[#080808] p-12 transition-colors hover:bg-[#0f0f0f]">
               <div className="font-display text-7xl text-teal/10 leading-none mb-6">{num}</div>
               <div className="font-sans text-xl font-extrabold text-white mb-4 leading-snug">{title}</div>
-              <div className="font-sans text-sm leading-relaxed text-white/50">{body}</div>
+              <div className="font-sans text-sm leading-relaxed text-white/70">{body}</div>
             </div>
           ))}
         </div>
@@ -141,7 +141,7 @@ export default function Home() {
           <h2 className="font-display leading-[0.95] text-white mb-8" style={{ fontSize: 'clamp(2.5rem,5vw,4.5rem)' }}>
             A <span className="text-teal">multi-trillion</span> dollar white space
           </h2>
-          <p className="text-base leading-relaxed text-white/55 mb-10">
+          <p className="text-base leading-relaxed text-white/75 mb-10">
             Own. sits at the convergence of three massive, fast-growing markets: the $500B creator economy, the exploding prediction market sector, and the $2T+ intelligence and data industry. No single platform has combined them. Until now.
           </p>
           <div className="flex flex-wrap gap-2">
@@ -168,7 +168,7 @@ export default function Home() {
               <span className="text-3xl text-teal block mb-5">{icon}</span>
               <div className="font-mono text-[0.6rem] tracking-[0.25em] text-muted uppercase mb-3">Step {num}</div>
               <div className="font-sans font-extrabold text-white text-lg mb-3 leading-snug">{title}</div>
-              <div className="font-sans text-sm text-white/45 leading-relaxed">{desc}</div>
+              <div className="font-sans text-sm text-white/75 leading-relaxed">{desc}</div>
               {i < 3 && (
                 <div className="absolute -right-3 top-1/2 -translate-y-1/2 w-5 h-5 bg-[#080808] border border-teal rounded-full flex items-center justify-center z-10 text-[0.55rem] text-teal">→</div>
               )}
@@ -195,7 +195,7 @@ export default function Home() {
               <span className="text-teal">that no one has cracked.</span><br />
               <span className="text-[#D8E800] font-bold">Until now.</span>
             </h2>
-            <p className="text-base leading-relaxed text-white/55 max-w-md">
+            <p className="text-base leading-relaxed text-white/75 max-w-md">
               Own. is building the infrastructure layer where identity, culture, and commerce converge. Where creators become media companies, communities drive distribution, and attention — for the first time — converts into real, ownable wealth.
             </p>
           </div>
@@ -213,7 +213,7 @@ export default function Home() {
                     : w + ' '
                   )}
                 </div>
-                <div className="font-sans text-sm text-white/45 leading-relaxed">{body}</div>
+                <div className="font-sans text-sm text-white/75 leading-relaxed">{body}</div>
               </div>
             ))}
           </div>
@@ -244,7 +244,7 @@ export default function Home() {
         <h2 className="font-display leading-[0.9] text-white relative z-10 mb-6" style={{ fontSize: 'clamp(3.5rem,8vw,8rem)' }}>
           The future<br />of attention<br />is <span className="text-teal">owned.</span>
         </h2>
-        <p className="font-sans text-base text-white/50 max-w-md mx-auto mb-12 leading-relaxed relative z-10">
+        <p className="font-sans text-base text-white/70 max-w-md mx-auto mb-12 leading-relaxed relative z-10">
           We're raising our Pre-Series A Round to build the intelligence economy's first platform. Join us at the ground floor.
         </p>
         <div className="relative z-10 flex flex-col items-center gap-4">
@@ -275,17 +275,17 @@ export default function Home() {
             <div className="font-mono text-[0.58rem] tracking-[0.3em] uppercase text-muted mb-5">Investors</div>
             <div className="flex flex-col gap-3">
               {[['Request Investment Deck', () => setModal('deck')],['I Want to Invest', () => setModal('invest')],['Access DD Suite', () => setModal('access')]].map(([label, fn]) => (
-                <button key={label as string} onClick={fn as () => void} className="text-left font-sans text-sm text-white/50 transition-colors hover:text-teal">{label as string}</button>
+                <button key={label as string} onClick={fn as () => void} className="text-left font-sans text-sm text-white/70 transition-colors hover:text-teal">{label as string}</button>
               ))}
-              <a href="mailto:invest@iown.app" className="font-sans text-sm text-white/50 transition-colors hover:text-teal">invest@iown.app</a>
+              <a href="mailto:invest@iown.app" className="font-sans text-sm text-white/70 transition-colors hover:text-teal">invest@iown.app</a>
             </div>
           </div>
           <div>
             <div className="font-mono text-[0.58rem] tracking-[0.3em] uppercase text-muted mb-5">Product</div>
             <div className="flex flex-col gap-3">
-              <a href="https://www.ownapp.co" target="_blank" className="font-sans text-sm text-white/50 hover:text-teal transition-colors">www.ownapp.co</a>
-              <a href="https://apps.apple.com" target="_blank" className="font-sans text-sm text-white/50 hover:text-teal transition-colors">Download — App Store</a>
-              <a href="https://play.google.com" target="_blank" className="font-sans text-sm text-white/50 hover:text-teal transition-colors">Download — Google Play</a>
+              <a href="https://www.ownapp.co" target="_blank" className="font-sans text-sm text-white/70 hover:text-teal transition-colors">www.ownapp.co</a>
+              <a href="https://apps.apple.com" target="_blank" className="font-sans text-sm text-white/70 hover:text-teal transition-colors">Download — App Store</a>
+              <a href="https://play.google.com" target="_blank" className="font-sans text-sm text-white/70 hover:text-teal transition-colors">Download — Google Play</a>
             </div>
           </div>
         </div>
