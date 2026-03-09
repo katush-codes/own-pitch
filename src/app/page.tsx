@@ -35,7 +35,7 @@ export default function Home() {
 
         {/* Content */}
         <div className="flex flex-col justify-center relative z-10 py-24">
-          <p className="font-mono text-xs tracking-[0.3em] uppercase text-teal mb-8 animate-fade-up">The Intelligence Economy</p>
+          <p className="font-mono text-xs tracking-[0.3em] uppercase text-teal mb-8 animate-fade-up">The Intelligent Creator Economy</p>
           <h1 className="font-display leading-[0.88] tracking-tight text-white animate-fade-up-2"
             style={{ fontSize: 'clamp(5rem,14vw,13rem)' }}>
             Attention<br />
@@ -43,8 +43,8 @@ export default function Home() {
             <span style={{ WebkitTextStroke: '1px rgba(245,242,236,0.25)', color: 'transparent' }}>Equity.</span>
           </h1>
           <p className="max-w-lg mt-10 text-lg leading-relaxed text-white/65 animate-fade-up-3">
-            A <span className="text-[#D8E800] font-bold">Social Media</span> and <span className="text-[#D8E800] font-bold">Prediction Market App</span> where creators compete, audiences bet on outcomes, and{' '}
-            <strong className="text-white font-bold">everyone owns what they build</strong> — IP included. The multi-trillion-dollar market for truth and real-time intelligence, unlocked.
+            A <span className="text-[#D8E800] font-bold">Social Media</span> and <span className="text-[#D8E800] font-bold">Prediction Market App</span> where creators compete, audiences vote + bet on outcomes, everyone gets paid and owns what they build — IP included. The{' '}
+            multi-trillion-dollar market for truth and real-time intelligence, unlocked.
           </p>
           <div className="flex gap-4 mt-12 flex-wrap animate-fade-up-4">
             <button onClick={() => setModal('deck')} className="bg-teal text-black font-bold text-sm tracking-widest uppercase px-10 py-4 transition-all hover:bg-teal-light hover:-translate-y-0.5">
@@ -90,7 +90,7 @@ export default function Home() {
         </p>
         <div className="grid grid-cols-2 gap-px bg-[#1a1a1a] border border-[#1a1a1a]">
           {[
-            ['01','Social Media Reimagined','Social Media','Creators compete in AI-ranked arenas. Performance is transparent, meritocratic, and financially rewarded. No more black-box algorithms deciding your fate.'],
+            ['01','Social Media Reimagined','Social Media','Creators compete in AI-ranked arena cycles based on human interactions, performance is transparent, meritocratic, and financially rewarded. No more black-box algorithms deciding your fate.'],
             ['02','Prediction Markets Built In','Built In','Audiences don\'t just watch — they bet. On creators, on outcomes, on ideas. Attention becomes a financial instrument for the first time.'],
             ['03','Own What You Create','Own','Every piece of content is IP. Creators hold the rights, license their work, and build compounding digital assets — not just follower counts.'],
             ['04','A Market for Truth','Truth','Real-time collective intelligence surfaces what\'s actually true and what matters. Own. is infrastructure for the information economy.'],
@@ -110,10 +110,11 @@ export default function Home() {
           The Shift
         </p>
         <h2 className="font-display leading-[0.92] text-white mb-12" style={{ fontSize: 'clamp(3rem,6vw,6rem)' }}>
-          The old model<br />is <span className="text-[#D8E800] font-bold">broken.</span>
+          The old social media model<br />is <span className="text-[#D8E800] font-bold">broken.</span>
         </h2>
         <div className="max-w-4xl">
           {[
+            ['Lack of monetization for creators','Highest payout platform to Creators'],
             ['Platforms own your content','You own your IP'],
             ['Attention is harvested','Attention is monetized by you'],
             ['Opaque algorithmic ranking','AI-powered transparent competition'],
