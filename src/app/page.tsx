@@ -191,8 +191,8 @@ export default function Home() {
             <p className="font-mono text-xs tracking-[0.25em] uppercase text-teal mb-6">The Untapped Asset</p>
             <h2 className="font-display leading-[0.92] text-white mb-10" style={{ fontSize: 'clamp(3rem,5.5vw,5.5rem)' }}>
               The creator economy is the most valuable asset on the planet.<br />
-              <span className="text-teal">No one has figured it out.</span><br />
-              <span style={{ color: 'transparent', WebkitTextStroke: '1px rgba(245,242,236,0.2)' }}>Until now.</span>
+              <span className="text-teal">that no one has cracked.</span><br />
+              <span className="text-[#D8E800] font-bold">Until now.</span>
             </h2>
             <p className="text-base leading-relaxed text-white/55 max-w-md">
               Own. is building the infrastructure layer where identity, culture, and commerce converge. Where creators become media companies, communities drive distribution, and attention — for the first time — converts into real, ownable wealth.
