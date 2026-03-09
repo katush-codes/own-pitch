@@ -36,7 +36,7 @@ export function AppBadges({ className = '', dark = false }: AppBadgesProps) {
       </a>
 
       <a
-        href="https://apps.apple.com"
+        href="https://apps.apple.com/us/app/own-post-go-viral-repeat/id6470322906"
         target="_blank"
         rel="noopener noreferrer"
         className={`flex items-center gap-2 border px-3 py-2 transition-all ${borderColor} ${textColor}`}
@@ -49,7 +49,7 @@ export function AppBadges({ className = '', dark = false }: AppBadgesProps) {
       </a>
 
       <a
-        href="https://play.google.com"
+        href="https://play.google.com/store/apps/details?id=com.nemo.nemoapp&pcampaignid=web_share"
         target="_blank"
         rel="noopener noreferrer"
         className={`flex items-center gap-2 border px-3 py-2 transition-all ${borderColor} ${textColor}`}
