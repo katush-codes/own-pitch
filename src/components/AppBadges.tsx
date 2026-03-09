@@ -23,7 +23,7 @@ export function AppBadges({ className = '', dark = false }: AppBadgesProps) {
   const subColor = dark ? 'text-black/40' : 'text-muted'
 
   return (
-    <div className={`flex items-center gap-3 flex-wrap ${className}`}>
+    <div className={`flex flex-col sm:flex-row items-start gap-3 ${className}`}>
       <a
         href="https://www.ownapp.co"
         target="_blank"
