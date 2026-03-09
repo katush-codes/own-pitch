@@ -257,7 +257,7 @@ export default function Home() {
           <button onClick={() => setModal('access')} className="bg-transparent font-mono text-xs tracking-[0.15em] uppercase border border-teal/40 text-teal px-8 py-4 transition-all hover:border-teal hover:bg-teal/5">
             Access DD Suite →
           </button>
-          <div className="font-mono text-xs tracking-[0.2em] uppercase text-muted mt-2">investments@iown.app</div>
+          <div className="font-mono text-xs tracking-[0.2em] uppercase text-muted mt-2">invest@iown.app</div>
         </div>
       </section>
 
@@ -277,7 +277,7 @@ export default function Home() {
               {[['Request Investment Deck', () => setModal('deck')],['I Want to Invest', () => setModal('invest')],['Access DD Suite', () => setModal('access')]].map(([label, fn]) => (
                 <button key={label as string} onClick={fn as () => void} className="text-left font-sans text-sm text-white/50 transition-colors hover:text-teal">{label as string}</button>
               ))}
-              <a href="mailto:investments@iown.app" className="font-sans text-sm text-white/50 transition-colors hover:text-teal">investments@iown.app</a>
+              <a href="mailto:invest@iown.app" className="font-sans text-sm text-white/50 transition-colors hover:text-teal">invest@iown.app</a>
             </div>
           </div>
           <div>
