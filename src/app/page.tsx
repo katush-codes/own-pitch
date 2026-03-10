@@ -257,7 +257,7 @@ export default function Home() {
           <button onClick={() => setModal('access')} className="bg-transparent font-mono text-xs tracking-[0.15em] uppercase border border-teal/40 text-teal px-8 py-4 transition-all hover:border-teal hover:bg-teal/5">
             Access DD Suite →
           </button>
-          <div className="font-mono text-xs tracking-[0.2em] uppercase text-muted mt-2">invest@iown.app</div>
+          <a href="mailto:invest@iown.app?subject=Investment Inquiry — Own. Pre-Series A" className="font-mono text-xs tracking-[0.2em] uppercase text-teal font-bold mt-2 hover:opacity-70 transition-opacity underline underline-offset-4">invest@iown.app</a>
         </div>
       </section>
 
